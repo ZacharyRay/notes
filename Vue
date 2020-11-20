@@ -1,0 +1,8 @@
+Vue components communication 
+https://www.smashingmagazine.com/2020/01/data-components-vue-js/#emitting-custom-events-share-data-child-parent
+busses: 
+https://blog.logrocket.com/using-event-bus-in-vue-js-to-pass-data-between-components/
+
+Vue install
+https://www.techiediaries.com/vue-cli-tutorial/
+

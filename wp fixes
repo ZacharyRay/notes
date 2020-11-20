@@ -1,0 +1,5 @@
+Wordpress change domain if fail
+Du kan også indsætte dette i din wp-config.php
+
+define( 'WP_HOME', 'https://handmade.fo' );
+define( 'WP_SITEURL', 'https://handmade.fo' );

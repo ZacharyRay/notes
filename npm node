@@ -1,0 +1,7 @@
+If npm fails:
+
+Update config: sudo npm i -g npm
+
+And / or : npm audit fix
+
+

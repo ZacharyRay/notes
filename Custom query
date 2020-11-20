@@ -1,0 +1,17 @@
+Custom query
+
+https://developer.wordpress.org/reference/classes/wp_query/
+
+example:
+<!-- custom query example -->
+<div class="latest-posts">
+        <?php
+        $homepagePosts = new WP_Query(array(
+            'posts_per_page' => '2'
+        ));
+            while ($homepagePosts->have_posts()) {
+                $homepagePosts->the_post();
+        ?>
+            <?php the_title(); ?>
+        <?php } wp_reset_postdata(); ?>
+</div>

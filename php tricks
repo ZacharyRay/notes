@@ -1,0 +1,12 @@
+If not exist
+<?php if(!empty($employees)) { ?>
+
+Html eller foreach loop
+
+<?php } ?>
+
+
+Show variable content
+
+   <?php echo '<pre>' . print_r($VAR, true) . '</pre>'; ?>
+    <?php var_dump(); ?>
